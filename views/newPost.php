@@ -13,9 +13,9 @@
     <?php include "views/includes/header.php"; ?>
     <main class="board">
         <h1> Cadastro de novo Post </h1>
-        <form >
+        <form method="post" enctype="multipart-data" action="/instagram/cadastrar-post">
             <div class="form-group">
-                <label for="exampleFormControlFile1">Example file input</label>
+                <label for="exampleFormControlFile1">Arquivo de envio:</label>
                 <input type="file" class="form-control-file" name="img" id="exampleFormControlFile1">
             </div>
             <div class="form-group">
