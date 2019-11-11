@@ -6,7 +6,7 @@ class Connect{
     private $pass = "";
 
     protected function criarConexao() {
-        return new PDO(this->host, this->user, this->pass);       
+        return new PDO($this->host, $this->user, $this->pass);       
     }
 }
 
